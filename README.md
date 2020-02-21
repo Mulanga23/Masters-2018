@@ -1,1 +1,2 @@
 # Masters-2018
+Computer vision problem, working on applying machine learning algorithms, Convolutional Neural Networks and Fully Convolutional Networks to annotated tsetse fly image data. The task of annotating is currently done manually, we a building an algorithm that when fed an image, can automatically annotate all the key landmarks on the fly thus reducing the amount of manual work required to annotate each fly.
