@@ -1,17 +1,15 @@
 #!/bin/bash
-# setup.sh
-# a bash script to setup the environment for the project
 
-# install pip and virtual
+#install pip
 sudo apt-get install python3-pip -y
 
-# create the virtual environment in the project root
+#install virtualenv and create your virtual enc of choice
+
 pip install virtualenv
 virtualenv -p python3 cv_env
 
-#get into the virtual environment
+#Get into the virtualenv
 source cv_env/bin/activate
 pip install -r requirements.txt
 pip install ipykernel
 ipython kernel install --user --name=cv_env
-
