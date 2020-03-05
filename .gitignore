@@ -99,7 +99,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-cx_env/
+cv_env/
 
 # Spyder project settings
 .spyderproject
