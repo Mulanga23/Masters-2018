@@ -133,7 +133,7 @@ dmypy.json
 *.gv.pdf
 *.tex
 *.csv
-*.json
+#*.json
 *.key
 
 # exceptions
